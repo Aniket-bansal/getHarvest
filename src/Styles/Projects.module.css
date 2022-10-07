@@ -45,11 +45,9 @@
 /* Project section */
 
 .Project_mainContainer>.projects_section{
-    /* border: 1px solid red; */
     height: 670px;
 }
 .projects_section>.project_list{
-    /* border: 1px solid red; */
     height: 300px;
     width: 60%;
     margin: auto;
@@ -74,12 +72,10 @@
 }
 /* bottom_section */
 .Project_mainContainer>.bottom_section{
-    /* border: 1px solid green; */
     height: 70px;
     
 }
 .bottom_section>div{
-    /* border: 1px solid red; */
     display: flex;
     gap: 20px;
     width: 30%;

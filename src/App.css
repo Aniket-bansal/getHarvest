@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: "Poppins", sans-serif; */
 }
 .nav-container {
   display: flex;
@@ -30,21 +29,18 @@
   width: 18%;
 }
 .nav-container > .nav-left > img {
-  /* border: 2px solid black; */
   margin-top: 8px;
   width: 22%;
   margin-right: 5px;
 }
 .nav-container > .nav-middle ul {
   display: flex;
-  /* text-decoration: none; */
   margin-top: 18px;
 }
 .nav-container > .nav-middle ul li {
   margin-left: 15px;
   list-style-type: none;
   list-style: none;
-  /* text-decoration: none !important; */
 }
 
 .nav-container > .nav-middle {
@@ -81,10 +77,6 @@
   cursor: pointer;
   columns: #FA5D00;
 }
-
-/* h4{
-  text-decoration: none;
-} */
 
 ul li {
   list-style-type: none;

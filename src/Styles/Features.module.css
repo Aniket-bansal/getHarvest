@@ -1,5 +1,4 @@
 .feature_mainContainer{
-    /* border: 1px  solid red; */
     border-bottom: 1px solid rgba(250,93,0,100%);
     height: 360vh;
     width: 100%;
@@ -8,7 +7,6 @@
     overflow-y: scroll;
 }
 .feature_mainContainer>.AutoScroll{
-    /* border: 1px solid red; */
     background-color: #FFF7F2;
     height: 100%;
 }
@@ -67,7 +65,7 @@
 /* items Container */
 .AutoScroll>.items{
     height: 309vh;
-    /* border-bottom:1px solid rgba(250,93,0,100%); */
+   
 }
 
 /* time tracking */
@@ -131,7 +129,6 @@
     gap: 30px;
 }
 .banner_flex>.banner_flexitems{
-    /* border: 1px solid red; */
     width: 100%;
     padding: 20px 20px 20px 20px;
 }
@@ -178,7 +175,6 @@
     max-width: 100%;
     height: auto;
     padding-left: 40px;
-    /* border-top-left-radius: 25px; */
     border-top-left-radius: 105px;
     border-bottom-right-radius: 105px;
 }
@@ -255,7 +251,6 @@
     margin-top: 30px;
 }
 .report_flex>.report_flexitems{
-    /* border: 1px solid green; */
     width: 90%;
     padding: 20px 20px 20px 20px;
 }
@@ -349,23 +344,16 @@ font-size: 15px;
     }
     .AutoScroll>.items{
         height:455vh;
-        /* overflow: scroll; */
-
     }
     .scrollTags>.scroll_items{
         height: 500px;
         width: 90%;
-        /* overflow: scroll; */
-
     }
     .items>.timetracking{
         width: 100%;
-        /* overflow: scroll; */
-
     }
     .banner_flex>.banner_flexitems{
         font-size: 15px;
-       /* border: 1px solid red; */
        overflow: scroll;
     }
     .quote_banner{
@@ -377,7 +365,6 @@ font-size: 15px;
         height: 200px;
         width: 200px;
         padding-left: 40px;
-        /* border-top-left-radius: 25px; */
         border-top-left-radius: 105px;
         border-bottom-right-radius: 105px;
     }
@@ -413,7 +400,6 @@ font-size: 15px;
     }
     .banner_flex>.banner_flexitems{
         font-size: 15px;
-       /* border: 1px solid red; */
        overflow: scroll;
     }
     .quote_banner{
@@ -425,7 +411,6 @@ font-size: 15px;
         height: 200px;
         width: 200px;
         padding-left: 40px;
-        /* border-top-left-radius: 25px; */
         border-top-left-radius: 105px;
         border-bottom-right-radius: 105px;
     }

@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import SecondNavbar from "../SignPages/SecondNavbar";
-// import harvestLogo from "../../utils/harvest-removebg-preview.png";
-
+import {Box} from '@chakra-ui/react'
 const Navbar = () => {
 
   const navigate = useNavigate();
@@ -15,8 +14,8 @@ const handleClick = ()=>{
 
   return (
     <>
-      {change? <SecondNavbar/> : <div className="nav-container">
-        <div className="nav-left">
+      {change? <SecondNavbar/> : <Box className="nav-container">
+        <Box className="nav-left">
           <Link to="/">
             <img
               src="https://www.getharvest.com/hubfs/favicon-h-1.ico"
@@ -27,9 +26,9 @@ const handleClick = ()=>{
           <Link className="link" to="/">
             <h2 style={{ color: "#FA5D00" }}>harvest</h2>
           </Link>
-        </div>
+        </Box>
         <hr className="left-vert-right"></hr>
-        <div className="nav-middle">
+        <Box className="nav-middle">
           <ul>
             <NavLink className="link" to="/whyHarvest">
               <li>Why Harvest?</li>
@@ -47,8 +46,8 @@ const handleClick = ()=>{
               <li to="/pricing">Pricing</li>
             </NavLink>
           </ul>
-        </div>
-        <div className="nav-right">
+        </Box>
+        <Box className="nav-right">
         {
           JSON.parse(localStorage.getItem("userName"))
           ? <h4>{JSON.parse(localStorage.getItem("userName"))}</h4> 
@@ -61,8 +60,8 @@ const handleClick = ()=>{
               <h4>Try Harvest Free</h4>
             </button>
           </NavLink>
-        </div>
-      </div>}
+        </Box>
+      </Box>}
     </>
   );
 };

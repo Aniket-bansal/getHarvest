@@ -2,19 +2,15 @@
     font-family: MuotoWeb,sans-serif;
     font-weight: 500;
     font-style: normal;
-    /* background-color: #FFF7F2; */
 
 }
 .harvest_mainContainer{
-    /* border: 1px solid red; */
     width: 100%;
     height: fit-content;
     margin-top: 100px;
     padding-bottom: 100px;
 }
 .harvest_mainContainer>.harvest_banner{
-   /* border: 1px solid red;
-    */
     width: 100%;
 }
 .harvest_mainContainer>.harvest_banner>.banner_hero_img{
@@ -26,7 +22,6 @@
     background-image: url(//19495563.fs1.hubspotusercontent-na1.net/hubfs/19495563/raw_assets/public/harvest-theme/images/auras/aura-spike-bottom-right.jpg);
     background-size: 687px 410px;
     background-repeat: no-repeat;
-    /* position: ; */
     background-position: calc(50% + 340px) bottom;
     padding-bottom: 100px;
 }
@@ -72,7 +67,6 @@
 
     border-bottom: 1px solid rgba(250,93,0,100%);
     height: auto;
-    
     background-color: #fff8f1;
 }
 /* Empower Text */

@@ -1,5 +1,4 @@
 .Team_Container{
-    /* border:1px solid red; */
     height: auto;
 }
 .Team_Container>.bar_items{
@@ -36,7 +35,6 @@
 }
 /* Team items */
 .team_items{
-    /* border: 1px solid red; */
     height: 1050px;
     width: 60%;
     margin: auto;
@@ -84,12 +82,10 @@ h1>input{
 }
 /* bottom_section */
 .Team_Container>.bottom_section{
-    /* border: 1px solid green; */
     height: 70px;
     
 }
 .bottom_section>div{
-    /* border: 1px solid red; */
     display: flex;
     gap: 20px;
     width: 30%;
